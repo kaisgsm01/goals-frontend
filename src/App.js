@@ -8,7 +8,7 @@ function App() {
   const [loadedGoals, setLoadedGoals] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const apiIpAddress="localhost:3000"
+  const apiIpAddress="myapp-load-balancer-257193075.eu-west-3.elb.amazonaws.com:3000"
 
   useEffect(function () {
     async function fetchData() {
