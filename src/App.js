@@ -8,7 +8,7 @@ function App() {
   const [loadedGoals, setLoadedGoals] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const apiIpAddress="3.129.69.103"
+  const apiIpAddress="localhost:3000"
 
   useEffect(function () {
     async function fetchData() {
